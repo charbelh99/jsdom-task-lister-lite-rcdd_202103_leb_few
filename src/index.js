@@ -1,9 +1,8 @@
 document.addEventListener("DOMContentLoaded", () => {
   
-  
+let button = document.querySelector("form");
 button.addEventListener("submit", append);
 function append(e) {
-  p.remove();
   let cal = document.getElementById("deadLine").value;
   let toDo = document.getElementById("toDo").value;
   let li = document.createElement("li");
